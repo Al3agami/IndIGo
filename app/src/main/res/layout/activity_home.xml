@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homescreenn"
+    tools:context="com.agamidev.indigo.Activitites.HomeActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="144dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="#aed6f1"
+            android:layout_marginBottom="10dp"
+            android:alpha="0"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Full earth map " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:alpha="0"
+            android:onClick="fullEarth"
+            android:text="Floor Map" />
+    </LinearLayout>
+
+</RelativeLayout>

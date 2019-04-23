@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IndIGo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="example_googlemaps_overlay_description">Demonstrates showing location over a floor plan which is loaded as map overlay. Shows both IndoorAtlas location and platform location (GPS).</string>
+</resources>
